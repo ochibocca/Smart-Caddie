@@ -1,0 +1,84 @@
+import React from 'react';
+import '../pagescss/home.css'
+function Home() {
+
+  return (
+  <>
+  <div className="nav">
+    <ul>
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">Home</a>
+      </li>
+    </ul>
+
+    <input type='text ' placeholder='Search Anything'/>
+  </div>
+  <div className="welcome">
+    <h1> Welcome to Smart Caddie</h1>
+    <p>
+      {" "}
+      No more confusion , You can now search for caddies amd book them instally
+    </p>
+    <div className="cards">
+      <div className="fast">
+        <h2>Fast</h2>
+        <p1>Book a caddie in one click</p1>
+      </div>
+      <div className="fast">
+        <h2>Fast</h2>
+        <p1>Book a caddie in one click</p1>
+      </div>
+      <div className="fast">
+        <h2>Fast</h2>
+        <p1>Book a caddie in one click</p1>
+      </div>
+    </div>
+    <button className='search-caddie-btn'> Search Caddie</button>
+  </div>
+
+        <div className="adding-caddie-account">
+          <div className="text">     
+            <p>Are you a  caddie who is looking for a job</p>
+          </div>
+          <div className="img-cointainer">
+            <div className='caddie-advantages'>
+                <h1 className='img-details'> Fast</h1>
+                <img src="https://static01.nyt.com/images/2020/05/16/sports/14golf-caddies1-print/merlin_141478350_e069e836-3995-4a6e-8faa-267c049837dd-superJumbo.jpg?quality=75&auto=webp" className='img-caddie'/>
+            </div>
+              <div className='caddie-advantages'>
+              <h1 className='img-details'> Affordable</h1>
+                <img src="https://e9t4oddrrr4.exactdn.com/wp-content/uploads/2022/11/1400x788px-5-1.jpg?strip=all&lossy=0&ssl=1" className='img-caddie'/>
+            </div>
+              <div className='caddie-advantages'>
+               <h1 className='img-details'> Free</h1>
+                <img src="https://www.thecaddienetwork.com/wp-content/uploads/2018/07/USATSI_10912277-e1530550848428.jpg" className='img-caddie' />
+            </div>
+           </div>
+            <button className='btn-img-caddie'>Add Now</button>
+          </div>
+        <div className="booking">
+            <div className="booking-one">
+              <p>View your notification in a click</p>
+            </div>
+             <div className="booking-two">
+              <p>View your notification in a click</p>
+            </div>
+             <div className="booking-three">
+              <p>View your notification in a click</p>
+            </div>
+            <div className="booking-four">
+              <p>View your notification in a click</p>
+            </div>
+        </div>
+         <button>View Now</button>
+    </>
+  )
+}
+
+export default Home;

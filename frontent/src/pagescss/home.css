@@ -1,0 +1,122 @@
+.nav{
+  display: flex;
+  background-color: #f1f1f1;
+  z-index: 1;
+  top: 0;
+  position: sticky;
+}
+ul li{
+  display: inline;
+  padding:8px;
+  
+  
+}
+li:hover{
+  background-color: greenyellow;
+  border-radius:5px;
+}
+a{
+  
+}
+
+.welcome{
+  margin-top: 40px;
+}
+.search-caddie-btn{
+  border-radius: 50px;
+  width: 120px;
+  height: 30px;
+  margin: 10px;
+}
+.fast{
+  border: 1px solid green;
+  border-radius: 5px;
+  margin: 10px;
+  padding-left: 10px;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+}
+.fast:hover{
+  border: 2px solid darkgreen;
+  width:200px;
+}
+input{
+  width: 200px;
+  align-items: center;
+  float: left;
+  height: 30px;
+  margin-left:800px ;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+.adding-caddie-account{
+    background-color: aqua;
+    width: 100%;
+    height: 800px;
+    padding-top: 15px;
+}
+.text{
+    text-align: center;
+    font-size: 60px;
+    color:  green;
+    margin-right: 30%;
+}
+.img-cointainer{
+    display: flex;
+    padding: 50px;
+    padding-left: 70px;
+}
+.img-caddie{
+    width: 300px;
+    height: 300px;
+    margin-left: 70px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.img-details{
+    align-items: center;
+    margin-left: 50%;
+}
+.img-caddie:hover{
+    opacity: 0.8;
+    width: 325px;
+}
+.btn-img-caddie{
+    border-radius: 50px;
+    width: 150px;
+    height: 45px;
+    margin-left: 45%;
+    cursor: pointer;
+}
+.booking{
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    padding: 30px 0;
+}
+.booking-one{
+    border: 1px solid green;
+    width: 500px;
+    height: 200px; 
+
+}
+.booking-two{
+    border: 1px solid green;
+    width: 500px;
+    height: 200px; 
+    margin-left: 1000px;
+
+}.booking-three{
+    border: 1px solid green;
+    width: 500px;
+    height: 200px; 
+
+}
+.booking-four{
+    border: 1px solid green;
+    width: 500px;
+    height: 200px; 
+    margin-left: 1000px;
+}
