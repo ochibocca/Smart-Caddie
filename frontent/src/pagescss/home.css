@@ -39,7 +39,7 @@ li:hover{
   border: 2px solid darkgreen;
   width:200px;
 }
-input{
+.input-search-nav{
   width: 200px;
   align-items: center;
   float: left;
@@ -89,31 +89,44 @@ input{
 }
 .booking{
     display: grid;
-    gap: 10px;
-    width: 100%;
-    padding: 30px 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
 }
-.booking-one{
+.booking-details{
     border: 1px solid green;
-    width: 500px;
+    width: 550px;
     height: 200px; 
+    margin: 50px;
+    align-items: center;
+    border-radius: 50px;
+    padding: 20px;
 
 }
-.booking-two{
+.booking-details-one{
     border: 1px solid green;
-    width: 500px;
+    width: 550px;
     height: 200px; 
-    margin-left: 1000px;
-
-}.booking-three{
-    border: 1px solid green;
-    width: 500px;
-    height: 200px; 
-
+    margin: 10px 55%;
+    border-radius: 50px;
+    padding: 40px;
 }
-.booking-four{
-    border: 1px solid green;
-    width: 500px;
-    height: 200px; 
-    margin-left: 1000px;
+
+h1{
+  margin-left: 35%;
+  font-size: large;
+}
+.btn-notification{
+  color: green;
+  margin-left: 45%;
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+}
+.footer{
+  width: 100%;
+  height: 400px;
+  background-color: aquamarine;
+  margin-top: 50px;
+  align-items: center;
 }

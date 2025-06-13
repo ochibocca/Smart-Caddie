@@ -1,4 +1,5 @@
 import React from 'react';
+
 import '../pagescss/home.css'
 function Home() {
 
@@ -17,7 +18,7 @@ function Home() {
       </li>
     </ul>
 
-    <input type='text ' placeholder='Search Anything'/>
+    <input type='text ' placeholder='Search Anything' className='input-search-nav'/>
   </div>
   <div className="welcome">
     <h1> Welcome to Smart Caddie</h1>
@@ -63,20 +64,28 @@ function Home() {
             <button className='btn-img-caddie'>Add Now</button>
           </div>
         <div className="booking">
-            <div className="booking-one">
-              <p>View your notification in a click</p>
+            <div className="booking-details">
+             <h1>Notification</h1>
+             <h2>You can now connect anywhere in the Global and find caddie in Kenya </h2>
             </div>
-             <div className="booking-two">
-              <p>View your notification in a click</p>
+             <div className="booking-details">
+           <h1>Connect</h1>
+           <h2>The Smart Caddie app sends timely notifications to remind golfers of tee times, ensuring they stay on schedule during busy rounds.</h2>
             </div>
-             <div className="booking-three">
-              <p>View your notification in a click</p>
-            </div>
-            <div className="booking-four">
-              <p>View your notification in a click</p>
+             <div className="booking-details-one">
+                           <h1>Everywhere</h1>
+                           <h2>The Smart Caddie app delivers real-time notifications to golfers, providing personalized club recommendations based on course conditions and player performance.</h2>
             </div>
         </div>
-         <button>View Now</button>
+            <button className='btn-notification'>View Now</button>
+            <footer className="footer">
+  <div className="footer-info">
+  
+    <span> 2025 SmartCaddie All Rights Reserved </span>
+  </div>
+</footer>
+
+        
     </>
   )
 }
