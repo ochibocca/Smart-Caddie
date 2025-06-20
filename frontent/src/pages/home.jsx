@@ -23,7 +23,6 @@ function Home() {
   <div className="welcome">
     <h1> Welcome to Smart Caddie</h1>
     <p>
-      {" "}
       No more confusion , You can now search for caddies amd book them instally
     </p>
     <div className="cards">
