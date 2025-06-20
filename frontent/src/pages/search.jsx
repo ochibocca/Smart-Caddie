@@ -3,6 +3,7 @@
 
 import React from 'react';
 import { useState } from 'react';
+import '../pagescss/search.css'
 
 function Search() {
   const [count, setCount] = useState(0);
@@ -47,7 +48,7 @@ function Search() {
   });
 
   return (
-    <div>
+    <div className='input-caddie'>
       <input 
         type='text'
         placeholder='search'
@@ -55,19 +56,21 @@ function Search() {
         onChange={handleSearch}
       />
         {filteredCaddie.map((caddieRecord) => (
-        <div key={caddieRecord.id} > 
-          <div>
+        <div key={caddieRecord.id} className='caddie-record'> 
+        <img src='https://static.vecteezy.com/system/resources/thumbnails/053/406/424/small/person-gray-photo-placeholder-man-on-gray-background-avatar-man-icon-anonymous-user-male-no-photo-web-template-default-user-picture-for-social-networks-social-media-resume-forums-free-vector.jpg'></img>
+          <div className='caddie-firstName'>
               <strong>Name </strong>
             {caddieRecord.firstName} 
           </div>
-            <div>
-                              <strong>Email </strong>
+            <div className='caddie-email'>
+              <strong>Email </strong>
           {caddieRecord.email} 
           </div> 
-          <div>
+          <div  className='caddie-phone'>
                             <strong>Phone </strong>
           {caddieRecord.phone}
           </div>
+               <button>Book Now</button>
           </div>
         ))}
     </div>

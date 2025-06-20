@@ -11,10 +11,10 @@ function Home() {
         <a href="#">Home</a>
       </li>
       <li>
-        <a href="#">Home</a>
+        <a href="#">Search</a>
       </li>
       <li>
-        <a href="#">Home</a>
+        <a href="#">Booking</a>
       </li>
     </ul>
 
@@ -62,6 +62,7 @@ function Home() {
            </div>
             <button className='btn-img-caddie'>Add Now</button>
           </div>
+             <h1 className='Notification-head'> Get Instant nonfication Now </h1>
         <div className="booking">
             <div className="booking-details">
              <h1>Notification</h1>
