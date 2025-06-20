@@ -48,13 +48,15 @@ function Search() {
   });
 
   return (
-    <div className='input-caddie'>
-      <input 
+    <div className='cointain-caddie'>
+      <div className='input-caddie'>
+           <input 
         type='text'
         placeholder='search'
         value={search} 
         onChange={handleSearch}
       />
+      </div>
         {filteredCaddie.map((caddieRecord) => (
         <div key={caddieRecord.id} className='caddie-record'> 
         <img src='https://static.vecteezy.com/system/resources/thumbnails/053/406/424/small/person-gray-photo-placeholder-man-on-gray-background-avatar-man-icon-anonymous-user-male-no-photo-web-template-default-user-picture-for-social-networks-social-media-resume-forums-free-vector.jpg'></img>

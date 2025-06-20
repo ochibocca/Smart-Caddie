@@ -1,15 +1,54 @@
-
-input{
-    border-radius: 50px;
-    margin: 20px 15px;
-    box-shadow: 1px green;
-    width: 75%;
-    height: 30px;
+.cointain-caddie {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 5px;
 }
-.caddie-record{
-    display: grid;
-    border-radius: 5px;
-    border: 1px solid green ;
-    width: 300px;
-    height: 400px;
+
+.input-caddie {
+  grid-column: 1 / -1; 
+  margin-top: 20px; 
+}
+
+input {
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  width: 75%; 
+  height: 40px;
+
+}
+
+input::placeholder {
+  color: #666;
+  opacity: 0.8;
+}
+
+.caddie-record {
+  display: grid;
+  border-radius: 5px;
+  border: 1px solid green;
+  height: 420px;
+  background-color: #fff;
+  width: 300px;
+}
+
+.caddie-record img {
+  width: 50%;
+  height: 150px;
+}
+
+.caddie-firstName,
+.caddie-email,
+.caddie-phone {
+  padding: 10px 15px;
+  font-size: 0.95rem;
+}
+
+button {
+  margin: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
 }
